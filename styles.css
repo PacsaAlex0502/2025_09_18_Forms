@@ -1,41 +1,41 @@
 /* Alapbeállítások */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff8f0;
-  color: #333;
-  padding: 30px;s
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    padding: 30px;
 }
 
 /* Cím */
 h1 {
-  text-align: center;
-  color: #e63946;
-  margin-bottom: 30px;
-  font-size: 2.5em;
+    text-align: center;
+    color: #e63946;
+    margin-bottom: 30px;
+    font-size: 2.5em;
 }
 
 /* Űrlap */
 form {
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Címkék és mezők */
 label {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-  color: #444;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #444;
 }
 
 input[type="text"],
@@ -43,50 +43,50 @@ input[type="tel"],
 input[type="email"],
 select,
 textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
 }
 
 /* Radio és checkbox */
 input[type="radio"],
 input[type="checkbox"] {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 /* Fieldset */
 fieldset {
-  margin-top: 20px;
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #fdfdfd;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fdfdfd;
 }
 
 legend {
-  font-weight: bold;
-  color: #e63946;
-  padding: 0 5px;
+    font-weight: bold;
+    color: #e63946;
+    padding: 0 5px;
 }
 
 /* Gombok */
 button {
-  margin-top: 20px;
-  padding: 12px 20px;
-  font-size: 1em;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button[type="submit"] {
-  background-color: #2a9d8f;
-  color: white;
+    background-color: #2a9d8f;
+    color: white;
 }
 
 button[type="submit"]:hover {
-  background
+    background
